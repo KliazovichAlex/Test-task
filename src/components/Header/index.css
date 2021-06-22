@@ -1,10 +1,14 @@
 .Header {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
   padding: 3rem;
   border-radius: 1.5rem;
+  background-color: white;
   box-shadow: rgba(149, 157, 165, 0.4) 0 8px 24px;
 }
 

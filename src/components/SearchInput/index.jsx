@@ -7,7 +7,6 @@ const SearchInput = ({ onSearch }) => {
 
   const onSearchChange = useCallback((e) => setValue(e.target.value), []);
   const onSubmit = useCallback(() => onSearch(value), [value, onSearch]);
-
   return (
     <div className="SearchInput">
       <input value={value} onChange={onSearchChange} />

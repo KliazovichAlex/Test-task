@@ -1,8 +1,8 @@
 const ContentList = ({ content }) => {
   return (
-    <ul>
-      {/* TODO: Display content */}
-      {console.info(`Available content: ${content}`)}
+    <ul >
+      {content.map((e,i)=> {return (<img src={e.image} alt="img" key={i}/>)})}
+      {/* {console.info(`Available content: ${content}`)} */}
     </ul>
   );
 };
